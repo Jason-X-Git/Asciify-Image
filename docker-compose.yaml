@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+
+  asciify-app:
+    build:
+      context: .
+    image: asciify_service
+    ports:
+      - "8088:8000"
+    volumes:
+      - .:/app:ro
+   
