@@ -1,5 +1,5 @@
 # Image Asciify Service
-Use fastapi to construct endpoints. The uploaded png file will be converted txt file which contains ascii art text, and saved in one sub folder "asciify_texts". Refactor PyWhatKit image_to_ascii_art method to convert uploaded png file into ascii art text files.
+Use fastapi to construct endpoints. The uploaded png file will be converted ascii art text, and saved as txt file in the sub folder "asciify_texts". Refactor PyWhatKit image_to_ascii_art method to convert uploaded png file into ascii art text.
 https://github.com/Ankit404butfound/PyWhatKit
 
 ## Start service using make commands included in Makefile
