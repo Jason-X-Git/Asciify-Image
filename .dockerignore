@@ -1,3 +1,4 @@
 Dockerfile
 Makefile
 docker-compose.yaml
+asciify_text/*

@@ -7,7 +7,7 @@ services:
       context: .
     image: asciify_service
     ports:
-      - "8088:8000"
+      - 8088:8000
     volumes:
-      - .:/app:ro
+      - .:/app
    
