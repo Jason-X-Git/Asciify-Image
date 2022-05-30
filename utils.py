@@ -1,3 +1,4 @@
+from functools import lru_cache
 import io
 from typing import List, Optional
 from pathlib import Path
@@ -52,7 +53,8 @@ async def asciify_png(uploaded_png):
     return image_id
 
 
-async def get_ascii_image(image_id: str):
+@lru_cache(maxsize=None)
+def get_ascii_image(image_id: str):
     """Read ascii text file, and return ascii art content"""
     image_ascii_file = ASCII_TEXT_FOLDER / f"{image_id}.txt"
     if image_ascii_file.exists():

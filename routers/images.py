@@ -20,7 +20,7 @@ async def list_images(limit: int = None):
     response_class=PlainTextResponse,
 )
 async def get_image(image_id: str):
-    ascii_txt = await get_ascii_image(image_id)
+    ascii_txt = get_ascii_image(image_id)
     return ascii_txt
 
 
