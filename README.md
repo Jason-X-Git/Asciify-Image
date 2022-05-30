@@ -27,8 +27,8 @@ $ curl "localhost:8088/images?limit=3"
 ```
 
 ## Next Implementation
+* Use Gunicorn add more workers, or cloud scaling to handle more requests.
 * Limit upload PNG file size.
 * Improve algorithm of asciify to make better-quality ascii art text.
-* Add caching support.
+* Add better caching support.
 * Use memory database such as Redis to replace local folder storage.
-* 
