@@ -5,7 +5,7 @@ service: build
 	docker run -it --rm -p 8088:8000 asciify_service:latest
 
 test:
-	docker run -it --entrypoint asciify_service:latest run pytest
+	docker run -it --entrypoint pytest asciify_service:latest
 
 format:
 	black ./

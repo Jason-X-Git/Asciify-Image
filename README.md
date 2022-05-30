@@ -7,7 +7,7 @@ http://localhost:8088/docs
 
 ### Create Ascii Art File
 ```bash
-$ curl -F "png=@ED.png" localhost:8088/images
+$ curl -F "png=@dove.png" localhost:8088/images
 ```
 
 ### Get ascii text by using image_id
