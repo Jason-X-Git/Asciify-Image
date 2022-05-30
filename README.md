@@ -4,7 +4,7 @@ https://github.com/Ankit404butfound/PyWhatKit
 
 ## Start service using make commands included in Makefile
 * `make build` to build a Docker container
-* `make service` to start the service on port 8080
+* `make service` to start the service on port 8088
 * `make test` to run tests
  
 ## Apis docs url
